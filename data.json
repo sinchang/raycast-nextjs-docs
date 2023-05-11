@@ -1,0 +1,353 @@
+{
+  "results": [
+    {
+      "hits": [
+        {
+          "title": "fetch",
+          "content": "fetch",
+          "path": "/docs/app/api-reference/functions/fetch",
+          "level": 5,
+          "position": 10,
+          "isParent": true,
+          "children": ["`fetch(url, options)`", "`options.cache`", "`options.next.revalidate`"],
+          "objectID": "/docs/app/api-reference/functions/draft-mode-fetch",
+          "_highlightResult": {
+            "title": {
+              "value": "__ais-highlight__fetch__/ais-highlight__",
+              "matchLevel": "full",
+              "fullyHighlighted": true,
+              "matchedWords": ["fetch"]
+            },
+            "content": {
+              "value": "__ais-highlight__fetch__/ais-highlight__",
+              "matchLevel": "full",
+              "fullyHighlighted": true,
+              "matchedWords": ["fetch"]
+            },
+            "path": {
+              "value": "/docs/app/api-reference/functions/__ais-highlight__fetch__/ais-highlight__",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            },
+            "children": [
+              {
+                "value": "`__ais-highlight__fetch__/ais-highlight__(url, options)`",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["fetch"]
+              },
+              {
+                "value": "`options.cache`",
+                "matchLevel": "none",
+                "matchedWords": []
+              },
+              {
+                "value": "`options.next.revalidate`",
+                "matchLevel": "none",
+                "matchedWords": []
+              }
+            ]
+          }
+        },
+        {
+          "title": "fetch",
+          "content": "`options.next.revalidate`",
+          "path": "/docs/app/api-reference/functions/fetch",
+          "level": 5,
+          "section": "`fetch(url, options)`",
+          "anchor": "optionsnextrevalidate",
+          "subSection": "`options.next.revalidate`",
+          "parentName": "fetch",
+          "position": 5,
+          "objectID": "/docs/app/api-reference/functions/fetch-`options.next.revalidate`",
+          "_highlightResult": {
+            "title": {
+              "value": "__ais-highlight__fetch__/ais-highlight__",
+              "matchLevel": "full",
+              "fullyHighlighted": true,
+              "matchedWords": ["fetch"]
+            },
+            "content": {
+              "value": "`options.next.revalidate`",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "path": {
+              "value": "/docs/app/api-reference/functions/__ais-highlight__fetch__/ais-highlight__",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            },
+            "section": {
+              "value": "`__ais-highlight__fetch__/ais-highlight__(url, options)`",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            },
+            "subSection": {
+              "value": "`options.next.revalidate`",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
+        },
+        {
+          "title": "fetch",
+          "content": "`options.cache`",
+          "path": "/docs/app/api-reference/functions/fetch",
+          "level": 5,
+          "section": "`fetch(url, options)`",
+          "anchor": "optionscache",
+          "subSection": "`options.cache`",
+          "parentName": "fetch",
+          "position": 4,
+          "objectID": "/docs/app/api-reference/functions/fetch-`options.cache`",
+          "_highlightResult": {
+            "title": {
+              "value": "__ais-highlight__fetch__/ais-highlight__",
+              "matchLevel": "full",
+              "fullyHighlighted": true,
+              "matchedWords": ["fetch"]
+            },
+            "content": {
+              "value": "`options.cache`",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "path": {
+              "value": "/docs/app/api-reference/functions/__ais-highlight__fetch__/ais-highlight__",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            },
+            "section": {
+              "value": "`__ais-highlight__fetch__/ais-highlight__(url, options)`",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            },
+            "subSection": {
+              "value": "`options.cache`",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
+        },
+        {
+          "title": "fetch",
+          "content": "`fetch(url, options)`",
+          "path": "/docs/app/api-reference/functions/fetch",
+          "level": 5,
+          "section": "`fetch(url, options)`",
+          "anchor": "fetchurl-options",
+          "parentName": "fetch",
+          "position": 3,
+          "objectID": "/docs/app/api-reference/functions/fetch-`fetch(url,-options)`",
+          "_highlightResult": {
+            "title": {
+              "value": "__ais-highlight__fetch__/ais-highlight__",
+              "matchLevel": "full",
+              "fullyHighlighted": true,
+              "matchedWords": ["fetch"]
+            },
+            "content": {
+              "value": "`__ais-highlight__fetch__/ais-highlight__(url, options)`",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            },
+            "path": {
+              "value": "/docs/app/api-reference/functions/__ais-highlight__fetch__/ais-highlight__",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            },
+            "section": {
+              "value": "`__ais-highlight__fetch__/ais-highlight__(url, options)`",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            }
+          }
+        },
+        {
+          "title": "Data Fetching",
+          "content": "Segment Cache Configuration",
+          "path": "/docs/app/building-your-application/data-fetching/fetching",
+          "level": 5,
+          "section": "Data Fetching without `fetch()`",
+          "anchor": "segment-cache-configuration",
+          "subSection": "Segment Cache Configuration",
+          "parentName": "Data Fetching",
+          "position": 15,
+          "objectID": "/docs/app/building-your-application/data-fetching/fetching-segment-cache configuration",
+          "_highlightResult": {
+            "title": {
+              "value": "Data __ais-highlight__Fetch__/ais-highlight__ing",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            },
+            "content": {
+              "value": "Segment Cache Configuration",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "path": {
+              "value": "/docs/app/building-your-application/data-__ais-highlight__fetch__/ais-highlight__ing/__ais-highlight__fetch__/ais-highlight__ing",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            },
+            "section": {
+              "value": "Data __ais-highlight__Fetch__/ais-highlight__ing without `__ais-highlight__fetch__/ais-highlight__()`",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            },
+            "subSection": {
+              "value": "Segment Cache Configuration",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
+        },
+        {
+          "title": "Data Fetching",
+          "content": "Default Caching Behavior",
+          "path": "/docs/app/building-your-application/data-fetching/fetching",
+          "level": 5,
+          "section": "Data Fetching without `fetch()`",
+          "anchor": "default-caching-behavior",
+          "subSection": "Default Caching Behavior",
+          "parentName": "Data Fetching",
+          "position": 14,
+          "objectID": "/docs/app/building-your-application/data-fetching/fetching-default-caching behavior",
+          "_highlightResult": {
+            "title": {
+              "value": "Data __ais-highlight__Fetch__/ais-highlight__ing",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            },
+            "content": {
+              "value": "Default Caching Behavior",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "path": {
+              "value": "/docs/app/building-your-application/data-__ais-highlight__fetch__/ais-highlight__ing/__ais-highlight__fetch__/ais-highlight__ing",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            },
+            "section": {
+              "value": "Data __ais-highlight__Fetch__/ais-highlight__ing without `__ais-highlight__fetch__/ais-highlight__()`",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            },
+            "subSection": {
+              "value": "Default Caching Behavior",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
+        },
+        {
+          "title": "Data Fetching",
+          "content": "Next Steps",
+          "path": "/docs/app/building-your-application/data-fetching",
+          "level": 4,
+          "section": "Next Steps",
+          "anchor": "next-steps-2",
+          "parentName": "Data Fetching",
+          "position": 13,
+          "objectID": "/docs/app/building-your-application/data-fetching-next-steps",
+          "_highlightResult": {
+            "title": {
+              "value": "Data __ais-highlight__Fetch__/ais-highlight__ing",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            },
+            "content": {
+              "value": "Next Steps",
+              "matchLevel": "none",
+              "matchedWords": []
+            },
+            "path": {
+              "value": "/docs/app/building-your-application/data-__ais-highlight__fetch__/ais-highlight__ing",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            },
+            "section": {
+              "value": "Next Steps",
+              "matchLevel": "none",
+              "matchedWords": []
+            }
+          }
+        },
+        {
+          "title": "Data Fetching",
+          "content": "Data Fetching without `fetch()`",
+          "path": "/docs/app/building-your-application/data-fetching/fetching",
+          "level": 5,
+          "section": "Data Fetching without `fetch()`",
+          "anchor": "data-fetching-without-fetch",
+          "parentName": "Data Fetching",
+          "position": 13,
+          "objectID": "/docs/app/building-your-application/data-fetching/fetching-data-fetching without `fetch()`",
+          "_highlightResult": {
+            "title": {
+              "value": "Data __ais-highlight__Fetch__/ais-highlight__ing",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            },
+            "content": {
+              "value": "Data __ais-highlight__Fetch__/ais-highlight__ing without `__ais-highlight__fetch__/ais-highlight__()`",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            },
+            "path": {
+              "value": "/docs/app/building-your-application/data-__ais-highlight__fetch__/ais-highlight__ing/__ais-highlight__fetch__/ais-highlight__ing",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            },
+            "section": {
+              "value": "Data __ais-highlight__Fetch__/ais-highlight__ing without `__ais-highlight__fetch__/ais-highlight__()`",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["fetch"]
+            }
+          }
+        }
+      ],
+      "nbHits": 146,
+      "page": 0,
+      "nbPages": 19,
+      "hitsPerPage": 8,
+      "exhaustiveNbHits": true,
+      "exhaustiveTypo": true,
+      "exhaustive": {
+        "nbHits": true,
+        "typo": true
+      },
+      "query": "fetch",
+      "params": "facets=%5B%5D&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=8&query=fetch&tagFilters=",
+      "index": "nextjs_new_docs",
+      "renderingContent": {},
+      "processingTimeMS": 1,
+      "processingTimingsMS": {
+        "request": {
+          "roundTrip": 202
+        }
+      }
+    }
+  ]
+}
