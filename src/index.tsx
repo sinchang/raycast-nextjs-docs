@@ -1,4 +1,4 @@
-import { ActionPanel, Action, List } from "@raycast/api";
+import { ActionPanel, Action, List, Icon } from "@raycast/api";
 import { useFetch, Response } from "@raycast/utils";
 import { useState } from "react";
 
@@ -10,6 +10,7 @@ export default function Command() {
     "https://nntahqi9c5-2.algolianet.com/1/indexes/*/queries?x-algolia-api-key=e39a19eff01bf0b15e00a9ccf181bf25&x-algolia-application-id=NNTAHQI9C5",
     {
       parseResponse: parseFetchResponse,
+      method: "post",
       body: JSON.stringify({
         requests: [
           {
@@ -30,7 +31,7 @@ export default function Command() {
     >
       <List.Section title="Results" subtitle={data?.length + ""}>
         {data?.map((searchResult) => (
-          <SearchListItem key={searchResult.name} searchResult={searchResult} />
+          <SearchListItem key={searchResult.content} searchResult={searchResult} />
         ))}
       </List.Section>
     </List>
@@ -40,20 +41,12 @@ export default function Command() {
 function SearchListItem({ searchResult }: { searchResult: SearchResult }) {
   return (
     <List.Item
-      title={searchResult.name}
-      subtitle={searchResult.description}
-      accessoryTitle={searchResult.username}
+      title={searchResult.content}
+      icon={Icon.Document}
       actions={
         <ActionPanel>
           <ActionPanel.Section>
-            <Action.OpenInBrowser title="Open in Browser" url={searchResult.url} />
-          </ActionPanel.Section>
-          <ActionPanel.Section>
-            <Action.CopyToClipboard
-              title="Copy Install Command"
-              content={`npm install ${searchResult.name}`}
-              shortcut={{ modifiers: ["cmd"], key: "." }}
-            />
+            <Action.OpenInBrowser title="Open in Browser" url={searchResult.path} />
           </ActionPanel.Section>
         </ActionPanel>
       }
@@ -69,19 +62,19 @@ async function parseFetchResponse(response: Response) {
     throw new Error("message" in json ? json.message : response.statusText);
   }
 
-  return json.results.map((result) => {
-    return {
-      name: result.package.name,
-      description: result.package.description,
-      username: result.package.publisher?.username,
-      url: result.package.links.npm,
-    } as SearchResult;
+  const results: SearchResult[] = [];
+
+  json.results[0].hits.forEach((result) => {
+    results.push({
+      content: result.isParent ? result.content : `${result.title} - ${result.content}`,
+      path: `https://nextjs.org${result.path}${result.anchor ? `#${result.anchor}` : ""}`,
+    });
   });
+
+  return results;
 }
 
 interface SearchResult {
-  name: string;
-  description?: string;
-  username?: string;
-  url: string;
+  content: string;
+  path: string;
 }
